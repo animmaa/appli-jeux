@@ -1,0 +1,14 @@
+[
+  {
+    "titre": "Catan",
+    "resume": "Jeu de négociation et colonisation.",
+    "miseEnPlace": "Placez les tuiles hexagonales, distribuez les ressources.",
+    "photo": "catan.jpg"
+  },
+  {
+    "titre": "Time's Up",
+    "resume": "Jeu de devinettes par équipe.",
+    "miseEnPlace": "Formez des équipes, mélangez les cartes, préparez le sablier.",
+    "photo": "timesup.jpg"
+  }
+]
