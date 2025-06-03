@@ -3,24 +3,18 @@
     "titre": "Catan",
     "resume": "Jeu de négociation et colonisation.",
     "miseEnPlace": "Placez les tuiles hexagonales, distribuez les ressources.",
-    "photo": "catan.jpg",
-    "nbJoueurMinimum": 1,
-    "nbJoueurMaximum": 2
+    "photo": "catan-boite.jpg"
   },
   {
     "titre": "Time's Up",
     "resume": "Jeu de devinettes par équipe.",
     "miseEnPlace": "Formez des équipes, mélangez les cartes, préparez le sablier.",
-    "photo": "timesup.jpg",
-    "nbJoueurMinimum": 3,
-    "nbJoueurMaximum": 6
+    "photo": "time-up.jpg"
   },
   {
     "titre": "Les aventurier du rail",
     "resume": "Jeu de devinettes par équipe.",
     "miseEnPlace": "Formez des équipes, mélangez les cartes, préparez le sablier.",
-    "photo": "timesup.jpg",
-    "nbJoueurMinimum": 3,
-    "nbJoueurMaximum": 4
+    "photo": "aventurier.jpg"
   }
 ]
