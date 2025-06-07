@@ -1,5 +1,12 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, Button, View, Image } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  Button,
+  View,
+  Image,
+  ScrollView,
+} from "react-native";
 import * as Speech from "expo-speech";
 import liste from "../liste-jeux.json";
 import { images } from "../assets/images";
@@ -17,7 +24,7 @@ export default function HomeScreen({ navigation }) {
 
   const listeTriee = [...liste].sort((a, b) => a.titre.localeCompare(b.titre));
   return (
-    <View>
+    <ScrollView style={styles.margeBot}>
       <View style={styles.container}>
         <Text style={styles.h1}>Liste des jeux de sociétés</Text>
         {listeTriee.map((jeu, index) => (
@@ -34,11 +41,14 @@ export default function HomeScreen({ navigation }) {
       <View style={styles.container}>
         <Button title="Press to hear some words" onPress={speak} />
       </View>
-    </View>
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
+  margeBot: {
+    marginBottom: "15%",
+  },
   container: {
     marginTop: 30,
     backgroundColor: "#fff",
